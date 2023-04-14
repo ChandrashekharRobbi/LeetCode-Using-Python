@@ -9,9 +9,10 @@ Referring LeetCode 75 Days Plan Sheet
 **Algorithms**
 > https://docs.google.com/spreadsheets/d/159i0H_ho_n2vefVKShvPUppcKYO8puFreSY5TMjiz60/edit?usp=sharing
 
-`leetcode_functions.py` it is the function created by Me i.e Chandrashekhar Robbi
+#### `leetcode_functions.py` it is the function created by Me i.e Chandrashekhar Robbi
+
 It has various features like
-* it takes input of the name of the problem**(there should not be any spelling mistake)** and returns the leetcode link for that problem 
+* it takes input of the name of the problem **(there should not be any spelling mistake)** and returns the leetcode link for that problem 
 * Convert the next cell into markdown
 * Copies the markdown to clipboard
       * It contains main markdown tag along with

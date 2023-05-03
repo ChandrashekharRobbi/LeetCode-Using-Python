@@ -15,5 +15,5 @@ It has various features like
 * it takes input of the name of the problem **(there should not be any spelling mistake)** and returns the leetcode link for that problem 
 * Convert the next cell into markdown
 * Copies the markdown to clipboard
-      * It contains main markdown tag along with
-              * `Approach` and `Time Complexity` labels
+     * It contains main markdown tag along with
+     * `Approach` and `Time Complexity` labels

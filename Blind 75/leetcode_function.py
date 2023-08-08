@@ -45,7 +45,7 @@ class LeetFunction:
     def jump_to_comment(self):
         display(Javascript('''
             IPython.notebook.select(1).edit_mode();
-            IPython.notebook.scroll_to_cell(3);
+            IPython.notebook.scroll_to_cell(4);
         '''))
         
     def new(self, s, h=2):
@@ -58,9 +58,9 @@ class LeetFunction:
             text = "-".join(s.split()).lower()
         leet_link =link + text
         leet_link
-        webbrowser.open_new_tab(leet_link)
-        comment = f"* ✅ [{s}](#{s.replace(' ','-')})           [<a href='{leet_link}' style='color:black'>Link</a>]"
-        markdown = f"{hash} {s}\n\n* Approach:\n* Time Complexity $ O() $"
+#         webbrowser.open_new_tab(leet_link)
+        comment = f"1. ✅ [{s}](#{s.replace(' ','-')})           [<a href='{leet_link}' style='color:black'>Link</a>]"
+        markdown = f"{hash} {s}\n\n* Approach:\n* Time Complexity $ O() $\n* Space Complexity $ O() $"
         self.to_markdown()
         
         if comment not in self.arr:

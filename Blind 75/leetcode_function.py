@@ -44,8 +44,8 @@ class LeetFunction:
         
     def jump_to_comment(self):
         display(Javascript('''
-            IPython.notebook.select(1).edit_mode();
-            IPython.notebook.scroll_to_cell(4);
+            IPython.notebook.select(2).edit_mode();
+            IPython.notebook.scroll_to_cell(2);
         '''))
         
     def new(self, s, h=2):

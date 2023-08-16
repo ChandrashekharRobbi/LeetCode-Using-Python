@@ -101,6 +101,6 @@ class LeetFunction:
         
     def makeNullArr(self):
         self.arr = []
-        self.delete_cell_prev()
+#         self.delete_cell_prev()
  
         

@@ -1,4 +1,4 @@
-# Blind 75
+# Most IMP Questions
 
 > Start Date : 05/08/2023
 * Here i will be doing Blind 75 Leetcode question with different approaches.
